@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "flaks-bank",
+	"version": "${version}",
+	"name": "Bank Mod",
+	"description": "Development Version. Only testers should have this.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/flaks-bank/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"one.flaks.bank.BankMod"
+		],
+		"client": [
+			"one.flaks.bank.BankModClient"
+		],
+		"fabric-datagen": [
+			"one.flaks.bank.BankModDataGenerator"
+		]
+	},
+	"mixins": [
+		"flaks-bank.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
