@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "bankmod:coin"
+    }
+  },
+  "result": {
+    "item": "bankmod:coin_pile"
+  }
+}

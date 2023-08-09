@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bankmod:melted_coin_pile"
+    }
+  ],
+  "result": {
+    "item": "bankmod:melted_coin",
+    "count": 9
+  }
+}

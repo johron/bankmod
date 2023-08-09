@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 450,
+  "experience": 1.75,
+  "ingredient": {
+    "item": "minecraft:gold_ingot"
+  },
+  "result": "bankmod:melted_coin"
+}

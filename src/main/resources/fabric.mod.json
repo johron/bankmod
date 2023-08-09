@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "flaks-bank",
+	"id": "bankmod",
 	"version": "${version}",
 	"name": "Bank Mod",
 	"description": "Development Version. Only testers should have this.",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "GPL-3.0",
-	"icon": "assets/flaks-bank/icon.png",
+	"icon": "assets/bankmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"flaks-bank.mixins.json"
+		"bankmod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.22",
